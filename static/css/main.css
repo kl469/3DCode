@@ -1,0 +1,327 @@
+@font-face {
+  font-family: cocaColaFont;
+  src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+
+body {
+  padding-top: 90px;
+  padding-bottom: 5px;
+  background-color: #f4000830;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  /* font-family: cocaColaFont; */
+}
+
+.logo {
+  margin-top: 3px;
+  display: flex;
+}
+
+.logo h1 {
+  font-family: cocaColaFont;
+  /* You don't need to repeat this for each media query as it is propagated */
+  font-size: 31px;
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  float: left;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 2px;
+}
+
+.logo h2 {
+  font-family: cocaColaFont;
+  font-size: 31px;
+  margin-top: -6px;
+  margin-bottom: -15px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 3px;
+  float: left;
+}
+
+.logo h3 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  padding-top: 0px;
+  padding-left: 0px;
+  float: left;
+}
+
+.logo p {
+  font-size: 7px;
+  /* You may have to tweak this to get a good fit */
+  margin-top: 22px;
+  /* You may have to tweak this to get a good fit */
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 3px;
+  text-align: center;
+}
+
+.card-img,
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.card-img,
+.card-img-top {
+  transition: all 0.6s;
+}
+
+.thumbnail-container {
+  overflow: hidden;
+  padding: 0;
+}
+
+.nav-background {
+  background-color: #F40009;
+  --bs-navbar-brand-color: #FFFFFF;
+  --bs-navbar-color: #FFFFFF;
+  --bs-navbar-brand-hover-color: #fffffff0;
+  --bs-navbar-hover-color: #fffffff0;
+  --bs-navbar-active-color: #FFFFFF;
+  --bs-body-color: #F40009;
+}
+
+.nav-link {
+  --bs-link-color: #F40009;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #00000099;
+  border-color: #00000000;
+  color: #FFFFFF;
+}
+
+.dropdown-item:hover {
+  background-color: #F40009;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 1px;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../assets/image/menu.svg);
+}
+
+#main_3d_image {
+  background-image: url(../assets/image/coca-cola-company-products-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* The div block for the main_3d_image has no vertical size, 
+  so we need a height to see the background image */
+  height: 200px;
+  border-radius: .25rem;
+}
+
+#main_text {
+  float: left;
+  margin: 5%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#main_text h2 {
+  color: rgba(0, 102, 153, 1);
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#main_text h3 {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#main_text p {
+  font-size: 12px;
+  margin: 0px;
+  line-height: 1.2;
+}
+
+.model {
+  background-color: #00000099;
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem;
+  position: relative;
+}
+
+.nav-model {
+  color: #000;
+}
+
+.nav-tabs {
+  border-bottom-color: transparent;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  body {
+    background-color: #6d1f3730;
+  }
+
+  .nav-background {
+    background-color: #6d1f37;
+    --bs-navbar-brand-color: #FFFFFF;
+    --bs-navbar-color: #FFFFFF;
+    --bs-navbar-brand-hover-color: #fffffff0;
+    --bs-navbar-hover-color: #fffffff0;
+    --bs-navbar-active-color: #FFFFFF;
+    --bs-body-color: #6d1f37;
+  }
+
+  .dropdown-item:hover {
+    background-color: #6d1f37;
+    color: #ffffff;
+  }
+
+  .nav-link {
+    --bs-link-color: #6d1f37;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background-color: #009b4e30;
+  }
+
+  .nav-background {
+    background-color: #009b4e;
+    --bs-navbar-brand-color: #FFFFFF;
+    --bs-navbar-color: #FFFFFF;
+    --bs-navbar-brand-hover-color: #fffffff0;
+    --bs-navbar-hover-color: #fffffff0;
+    --bs-navbar-active-color: #FFFFFF;
+    --bs-body-color: #009b4e;
+  }
+
+  .dropdown-item:hover {
+    background-color: #009b4e;
+    color: #ffffff;
+  }
+
+  .nav-link {
+    --bs-link-color: #009b4e;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    background-color: #FF970030;
+  }
+
+  .nav-background {
+    background-color: #FF9700;
+    --bs-navbar-brand-color: #FFFFFF;
+    --bs-navbar-color: #FFFFFF;
+    --bs-navbar-brand-hover-color: #fffffff0;
+    --bs-nav-link-hover-color: #fffffff0;
+    --bs-navbar-active-color: #FFFFFF;
+    --bs-body-color: #FF9700;
+  }
+
+  .dropdown-item:hover {
+    background-color: #FF9700;
+    color: #ffffff;
+  }
+
+  #main_text {
+    float: right;
+  }
+
+  .nav-link {
+    --bs-link-color: #FF9700;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    background-color: #E3F2FD30;
+  }
+
+  .nav-background {
+    background-color: #E3F2FD;
+    --bs-navbar-brand-color: #000000;
+    --bs-navbar-color: #000000;
+    --bs-navbar-brand-hover-color: #000000f0;
+    --bs-nav-link-hover-color: #000000f0;
+    --bs-navbar-active-color: #000000;
+    --bs-body-color: #E3F2FD;
+  }
+
+  .dropdown-item:hover {
+    background-color: #E3F2FD;
+    color: #000000;
+  }
+
+  #main_text {
+    float: right;
+  }
+
+  .nav-link {
+    --bs-link-color: #000000;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  body {
+    background-color: #00000030;
+  }
+
+  .nav-background {
+    background-color: #000000;
+    --bs-navbar-brand-color: #FFFFFF;
+    --bs-navbar-color: #FFFFFF;
+    --bs-navbar-brand-hover-color: #fffffff0;
+    --bs-navbar-hover-color: #fffffff0;
+    --bs-navbar-active-color: #FFFFFF;
+    --bs-body-color: #000000;
+  }
+
+  .dropdown-item:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  #main_text {
+    float: right;
+  }
+
+  .nav-link {
+    --bs-link-color: #000000 !important;
+  }
+}
