@@ -11,5 +11,6 @@ require(APP_PATH . 'core/Entrance.php');
 // 加载配置文件
 $config = require(APP_PATH . 'config/config.php');
 
+
 // 实例化框架类
 (new core\Entrance($config))->run();

@@ -35,7 +35,7 @@
       style="position:absolute;top:2rem;right:0;background-color:rgba(255,255,255,0.4);margin-right:2rem;">
       <video style="width:20rem;margin-bottom: 1rem;" autoplay="autoplay" loop="loop" muted
         src="static/assets/video/cola.mp4"></video>
-      <img class="img-fluid" style="width:20rem;" src="static/assets/image/diet-coke.png" alt="" />
+      <img class="img-fluid" style="width:20rem;" src="static/assets/image/diet-coke.jpg" alt="" />
     </div>
   </div>
   <div id="fanta" class="model" style="display: none;">
@@ -85,7 +85,7 @@
       style="position:absolute;top:2rem;right:0;background-color:rgba(255,255,255,0.4);margin-right:2rem;">
       <video style="width:20rem; margin-bottom: 1rem;" autoplay="autoplay" loop="loop" muted
         src="static/assets/video/sprite.mp4"></video>
-      <img class="img-fluid" style="width:20rem;" src="static/assets/image/zero.png" alt="" />
+      <img class="img-fluid" style="width:20rem;" src="static/assets/image/zero.webp" alt="" />
     </div>
   </div>
   <div class="row" id="introduce"></div>

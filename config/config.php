@@ -1,7 +1,7 @@
 <?php
 
 // database
-$config['db']['dbname'] = '.\ThreeDApp.db';
+$config['db']['dbname'] = '/ThreeDApp.db';
 
 // default
 $config['defaultController'] = 'Drink';
